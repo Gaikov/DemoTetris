@@ -1,0 +1,90 @@
+$figure
+{
+	$row "X"
+	$row "X"
+	$row "X"
+	$row "XXX"
+}
+
+$figure
+{
+	$row "  X  "
+	$row "  X  "
+	$row "XXXXX"
+	$row "  X  "
+	$row "  X  "
+}
+
+$figure
+{
+	$row "XXX"
+	$row "XXX"
+	$row "XXX"
+}
+
+$figure
+{
+	$row "X "
+	$row "XX"
+}
+
+$figure
+{
+	$row "X"
+	$row "X"
+	$row "X"
+	$row "X"
+	$row "X"
+}
+
+$figure
+{
+	$row "XX"
+	$row " XX"
+	$row "  XX"
+	$row "   XX"
+	$row "    XX"
+}
+
+$figure
+{
+	$row "XXX"
+	$row "  X"
+	$row "  XXX"
+	$row "    X"
+	$row "    X"
+}
+
+$figure
+{
+	$row "XXX"
+}
+
+$figure
+{
+	$row "XXX"
+	$row " X "
+}
+
+$figure
+{
+	$row " X "
+	$row "XXX"
+	$row " X "
+}
+
+$figure
+{
+	$row "  X"
+	$row " XXX"
+	$row "XXXXX"
+	$row " XXX"
+	$row "  X"
+}
+
+$figure
+{
+	$row "XX"
+	$row "X"
+	$row "XX"
+}

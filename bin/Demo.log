@@ -1,0 +1,89 @@
+open log: Fri Apr 20 12:22:50 2018
+*** Core Init ***
+OS Installed: Windows NT ver 6.2
+CPU Speed: 2908.52
+...enum packs
+WARNING: packs not found!
+
+...init resmap
+============================================
+*            Init Sound Subsystem          *
+============================================
+create AL context
+use context
+---------- OpenAL info -----------
+version: OpenAL 1.0
+renderer: Software
+vendor: Creative Labs Inc.
+extensions: EAX 2.0, EAX 3.0, EAX Unified, and EAX-AC3
+----------------------------------
+... 32 sources used
+...register class
+...create window
+------------------------------------
+ initialize Direct3D Render         
+------------------------------------
+...create d3d
+initialize device
+...using device: Intel(R) HD Graphics 620
+...checking device caps
+max texture size: 8192x8192
+vertex texgen: supported
+...enum modes
+activate :1
+activate :1
+...init windowed mode: 800x600
+...using backbuffer format: X8R8G8B8 (b:32,c:3)
+...create device
+...using hardware vertex processing
+...using depth stencil format: D16 (b:16)
+...reload vertex buffers
+init device states
+...init tm
+...using texture format for RGBA: A8R8G8B8 (b:32, c:4)
+...using texture format for RGB: X8R8G8B8 (b:32, c:3)
+...reload textures
+set brightness: 0.500000
+loading font: scripts/fnt_sys2.txt
+loading texture 'textures/sysfont.tga' - loaded
+*****************************************
+ INIT DEMO: start 
+*****************************************
+...init figures base
+...12 figures parsed
+loading track 'sound/track.ogg'
+play track: 'sound/track.ogg'
+*****************************************
+ INIT DEMO: done! 
+*****************************************
+init console
+loading texture 'textures/console.jpg' - loaded
+...joysticks count: 16
+WARNING: retrieve joystick caps!
+ogg rewind
+...writing config 'Demo.cfg'
+----------------------------------------
+********** Shutting Down App ***********
+----------------------------------------
+shutdown console
+------------------------------------
+ Shuttingdown Direct3D Render       
+------------------------------------
+release device states
+...delete textures
+...release vertex buffers
+...release device
+...release d3d
+...destroy window
+...unregister class
+============================================
+*           Release Sound Subsystem        *
+============================================
+...free sources
+...delete buffers
+...destroy context
+...close device
+
+*** Core Shutdown ***
+
+close log: Fri Apr 20 12:23:18 2018
